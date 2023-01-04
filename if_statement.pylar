@@ -1,0 +1,9 @@
+for x = 5, ifis > say "It's higher" rest "It's lower" now
+
+#
+This Pylar code defines a variable 'x' with a value of 5, and then uses an 'if' statement to check if the value of 'x' is greater than 3. If the condition is true, the code outputs the message "It's higher". If the condition is not true, the code outputs the message "It's lower".
+
+The 'for' keyword is used to define the scope of the 'if' statement. The 'ifis >' syntax is used to specify the condition that must be met in order for the 'say "It's higher"' line to be executed. The 'rest' keyword is used to specify an alternate action to take if the condition is not met, in this case outputting the message "It's lower". The 'now' keyword is used to grant temporary permission to execute the actions specified in the 'if' statement. After the actions are executed, the permission is lost and control is returned to the main owner of the program.
+
+Using the 'for', 'ifis', 'rest', and 'now' keywords in Pylar is a stylistic choice, and does not change the functionality of the program. It simply provides a different way of expressing the same concept. These keywords are designed to be easy to read and understand, and are intended to be familiar to people who have experience reading and writing books and literature. They are also designed to be super secure, combining the best parts of Rust and Python to create a new language that is optimized for AI and ML.
+#
