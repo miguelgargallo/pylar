@@ -322,7 +322,7 @@ There are a few key differences between the "ifis" statement in Pylar and the if
 ### Table of differences
 
 ```
-| Definition       | Python       | Rust       | Pylar       |
+| Definition       | Python       | Rust       | Pylar*(1)       |
 |-----------------|---------------|------------|-------------|
 | Returns a value | `return`      | `return`   | `say`       |
 | Prints output   | `print()`     | `println!()` | `say`     |
@@ -358,6 +358,8 @@ There are a few key differences between the "ifis" statement in Pylar and the if
 | Lambda function        | `lambda`      | `lambda`   | `lambda`    |
 | Function definition    | `def`         | `fn`       | `fn`        |
 ```
+
+(\*1) Pylar is a work in progress and is not yet complete, it is subject to changes.
 
 ## Loops
 
