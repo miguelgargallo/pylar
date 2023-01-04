@@ -359,7 +359,7 @@ There are a few key differences between the "ifis" statement in Pylar and the if
 | Function definition    | `def`         | `fn`       | `fn`        |
 ```
 
-(\*1) Pylar is a work in progress and is not yet complete, it is subject to changes.
+[(\*1)](#Table-of-differences) Pylar is a work in progress and is not yet complete, it is subject to changes.
 
 ## Loops
 
