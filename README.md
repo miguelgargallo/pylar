@@ -17,6 +17,7 @@
       - [Comparison points](#comparison-points-1)
       - [Comparison table](#comparison-table-1)
     - [Differences](#differences)
+    - [Table of differences](#table-of-differences)
   - [Loops](#loops)
     - [In Rust](#in-rust-1)
     - [In Python](#in-python-1)
@@ -318,6 +319,46 @@ There are a few key differences between the "ifis" statement in Pylar and the if
 
     Output: In Rust and Python, the println! and print functions are used to print to the standard output stream, respectively. In Pylar, the keyword "say" is used to specify the output, but it is not clear how the output is actually printed.
 
+### Table of differences
+
+```
+| Definition       | Python       | Rust       | Pylar       |
+|-----------------|---------------|------------|-------------|
+| Returns a value | `return`      | `return`   | `say`       |
+| Prints output   | `print()`     | `println!()` | `say`     |
+| If statement    | `if`          | `if`       | `ifis`      |
+| Else statement  | `else`        | `else`     | `else`      |
+| Elif statement  | `elif`        | `else if`  | `else`      |
+| For loop        | `for`         | `for`      | `for`       |
+| While loop      | `while`       | `while`    | `while`     |
+| Break loop      | `break`       | `break`    | `bye`       |
+| Continue loop   | `continue`    | `continue` | `rest`      |
+| And operator    | `and`         | `&&`       | `and`       |
+| Or operator     | `or`          | `||`       | `or`        |
+| Not operator    | `not`         | `!`        | `not`       |
+| Is operator     | `is`          | `==`       | `=`         |
+| In operator     | `in`          | `in`       | `in`        |
+| Equal operator  | `==`          | `==`       | `=`         |
+| Assign operator | `=`           | `=`        | `=`         |
+| Lambda function | `lambda`      | `lambda`   | `lambda`    |
+| Function definition | `def`   | `fn`       | `fn`        |
+| Class definition   | `class` | `struct`   | `class`     |
+| Import statement   | `import` | `use`      | `import`    |
+| Class definition       | `class`       | `struct`   | `class`     |
+| Import statement       | `import`      | `use`      | `import`    |
+| Global keyword         | `global`      | `global`   | `global`    |
+| Nonlocal keyword       | `nonlocal`    | `nonlocal` | `nonlocal`  |
+| And operator           | `and`         | `&&`       | `and`       |
+| Or operator            | `or`          | `||`       | `or`        |
+| Not operator           | `not`         | `!`        | `not`       |
+| Is operator            | `is`          | `==`       | `=`         |
+| In operator            | `in`          | `in`       | `in`        |
+| Equal operator         | `==`          | `==`       | `=`         |
+| Assign operator        | `=`           | `=`        | `=`         |
+| Lambda function        | `lambda`      | `lambda`   | `lambda`    |
+| Function definition    | `def`         | `fn`       | `fn`        |
+```
+
 ## Loops
 
 ### In Rust
@@ -515,42 +556,4 @@ while is unvisited,
             create alt = distances[current] + weight
             if is alt < distances[neighbor], do distances[neighbor] = alt, predecessors[neighbor] = current
 distances, predecessors
-```
-
-```
-| Definition       | Python       | Rust       | Pylar       |
-|-----------------|---------------|------------|-------------|
-| Returns a value | `return`      | `return`   | `say`       |
-| Prints output   | `print()`     | `println!()` | `say`     |
-| If statement    | `if`          | `if`       | `ifis`      |
-| Else statement  | `else`        | `else`     | `else`      |
-| Elif statement  | `elif`        | `else if`  | `else`      |
-| For loop        | `for`         | `for`      | `for`       |
-| While loop      | `while`       | `while`    | `while`     |
-| Break loop      | `break`       | `break`    | `bye`       |
-| Continue loop   | `continue`    | `continue` | `rest`      |
-| And operator    | `and`         | `&&`       | `and`       |
-| Or operator     | `or`          | `||`       | `or`        |
-| Not operator    | `not`         | `!`        | `not`       |
-| Is operator     | `is`          | `==`       | `=`         |
-| In operator     | `in`          | `in`       | `in`        |
-| Equal operator  | `==`          | `==`       | `=`         |
-| Assign operator | `=`           | `=`        | `=`         |
-| Lambda function | `lambda`      | `lambda`   | `lambda`    |
-| Function definition | `def`   | `fn`       | `fn`        |
-| Class definition   | `class` | `struct`   | `class`     |
-| Import statement   | `import` | `use`      | `import`    |
-| Class definition       | `class`       | `struct`   | `class`     |
-| Import statement       | `import`      | `use`      | `import`    |
-| Global keyword         | `global`      | `global`   | `global`    |
-| Nonlocal keyword       | `nonlocal`    | `nonlocal` | `nonlocal`  |
-| And operator           | `and`         | `&&`       | `and`       |
-| Or operator            | `or`          | `||`       | `or`        |
-| Not operator           | `not`         | `!`        | `not`       |
-| Is operator            | `is`          | `==`       | `=`         |
-| In operator            | `in`          | `in`       | `in`        |
-| Equal operator         | `==`          | `==`       | `=`         |
-| Assign operator        | `=`           | `=`        | `=`         |
-| Lambda function        | `lambda`      | `lambda`   | `lambda`    |
-| Function definition    | `def`         | `fn`       | `fn`        |
 ```
