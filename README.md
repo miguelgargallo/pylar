@@ -17,7 +17,8 @@
       - [Comparison points](#comparison-points-1)
       - [Comparison table](#comparison-table-1)
     - [Differences](#differences)
-    - [Table of differences](#table-of-differences)
+    - [Table of differences (\*1)](#table-of-differences-1)
+      - [Disclaimer](#disclaimer)
   - [Loops](#loops)
     - [In Rust](#in-rust-1)
     - [In Python](#in-python-1)
@@ -319,10 +320,10 @@ There are a few key differences between the "ifis" statement in Pylar and the if
 
     Output: In Rust and Python, the println! and print functions are used to print to the standard output stream, respectively. In Pylar, the keyword "say" is used to specify the output, but it is not clear how the output is actually printed.
 
-### Table of differences
+### Table of differences [(\*1)](#Disclaimer)
 
 ```
-| Definition       | Python       | Rust       | Pylar*(1)       |
+| Definition       | Python       | Rust       | Pylar      |
 |-----------------|---------------|------------|-------------|
 | Returns a value | `return`      | `return`   | `say`       |
 | Prints output   | `print()`     | `println!()` | `say`     |
@@ -358,6 +359,8 @@ There are a few key differences between the "ifis" statement in Pylar and the if
 | Lambda function        | `lambda`      | `lambda`   | `lambda`    |
 | Function definition    | `def`         | `fn`       | `fn`        |
 ```
+
+#### Disclaimer
 
 [(\*1)](#Table-of-differences) Pylar is a work in progress and is not yet complete, it is subject to changes.
 
